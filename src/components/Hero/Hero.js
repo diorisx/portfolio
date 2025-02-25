@@ -12,11 +12,11 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-        I'm Vipul Jha, also known as lordarcadius. I'm an Android developer from Delhi, India with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+        I'm Dioris R. I'm a Fullstack developer from DR, with experience in Web development, Databases, & Scripts. I'm passionate about creating challenging projects.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/files/resume.pdf';
+          //window.location.href = '/files/resume.pdf';
         }}>My Resume</Button>
       </LeftSection>
     </Section>
