@@ -12,12 +12,12 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-        I'm Dioris R. I'm a Fullstack developer from DR, with experience in Web development, Databases, & Scripts. I'm passionate about creating challenging projects.
+        I'm Dioris r. I'm a Fullstack developer from DR, with experience in Web and mobile development, Databases, & Scripts. I'm passionate about creating challenging projects.
         </SectionText>
-        <Button onClick={(e) => {
+      {/*   <Button onClick={(e) => {
           e.preventDefault();
-          //window.location.href = '/files/resume.pdf';
-        }}>My Resume</Button>
+          window.location.href = '/files/resume.pdf';
+        }}>My Resume</Button> */}
       </LeftSection>
     </Section>
   </>

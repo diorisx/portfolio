@@ -1,5 +1,5 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
+import { DiAndroid, DiTerminal, DiJava, DiHtml5, DiAngularSimple } from "react-icons/di";
+import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws, SiMongodb, SiGooglecloud } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { TbBrandKotlin } from "react-icons/tb";
 
@@ -16,12 +16,12 @@ export const Skills = [
     title: "Flutter",
     Description: () => <>Cross-platform app development</>,
   },
-  {
+/*   {
     slug: "kotlin",
     Component: TbBrandKotlin,
     title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
-  },
+    Description: () => <>Android apps</>,
+  }, */
   {
     slug: "dart",
     Component: SiDart,
@@ -29,10 +29,10 @@ export const Skills = [
     Description: () => <>Flutter apps only</>,
   },
   {
-    slug: "java",
-    Component: DiJava,
-    title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
+    slug: "angular",
+    Component: DiAngularSimple,
+    title: "Angular",
+    Description: () => <>Angular framework</>,
   },
 
   {
@@ -49,16 +49,16 @@ export const Skills = [
   },
 
   {
-    slug: "sql",
-    Component: SiMysql,
-    title: "MySQL",
+    slug: "mongodb",
+    Component: SiMongodb,
+    title: "MongoDB",
     Description: () => <>Storing client and user data</>,
   },
   {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
+    slug: "gcp",
+    Component: SiGooglecloud,
+    title: "Google Cloud Platform",
+    Description: () => <>Google Cloud Platform</>,
   },
   {
     slug: "terminal",

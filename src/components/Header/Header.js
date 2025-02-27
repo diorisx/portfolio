@@ -31,22 +31,22 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://blog.vipuljha.com">
+        <a href="#">
           <NavLink>Blog</NavLink>
         </a>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
+      <SocialIcons href="https://github.com/diorisx">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+      <SocialIcons href="https://www.linkedin.com/in/dioris/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
+      <SocialIcons href="https://www.instagram.com/diorisrenvill">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
+      <SocialIcons href="https://www.twitter.com/">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
